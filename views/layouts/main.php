@@ -75,7 +75,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
             Yii::$app->user->isGuest
                 ? (['label' => 'Вход на сайт',
                 'items' => [
-                    '<div class="dropdown-divider"></div>',
+//                    '<div class="dropdown-divider"></div>',
                     ['label' => 'Вход', 'url' => ['site/login']],
                     '<div class="dropdown-divider"></div>',
                     ['label' => 'Зарегистрироваться', 'url' => ['site/signup']],

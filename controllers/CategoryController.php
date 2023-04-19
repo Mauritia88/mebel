@@ -4,7 +4,8 @@ namespace app\controllers;
 
 use app\models\Category;
 use app\models\CategorySearch;
-use app\models\Product;
+
+use app\modules\admin\models\Product;
 use Yii;
 use yii\data\Pagination;
 use yii\web\Controller;

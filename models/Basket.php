@@ -3,7 +3,8 @@
 
 namespace app\models;
 
-use app\models\Product;
+
+use app\modules\admin\models\Product;
 use yii\base\Model;
 use Yii;
 

@@ -1,7 +1,11 @@
 <?php
 
-namespace app\models;
+namespace app\modules\admin\models;
 
+use app\models\Category;
+use app\models\ImageUpload;
+use app\models\OrderItem;
+use app\models\StatusProduct;
 use Yii;
 use yii\data\Pagination;
 

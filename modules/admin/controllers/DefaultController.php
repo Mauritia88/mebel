@@ -3,8 +3,8 @@
 namespace app\modules\admin\controllers;
 
 use app\models\Order;
-use app\models\Product;
 use app\models\User;
+use app\modules\admin\models\Product;
 
 
 /**

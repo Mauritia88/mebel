@@ -1,8 +1,9 @@
 <?php
 namespace app\controllers;
 
-use app\models\Product;
+
 use app\models\Page;
+use app\modules\admin\models\Product;
 use yii\web\Controller;
 use yii\web\HttpException;
 use Yii;

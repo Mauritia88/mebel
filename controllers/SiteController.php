@@ -2,10 +2,10 @@
 
 namespace app\controllers;
 
-use app\models\Product;
+
 use app\models\SignupForm;
+use app\modules\admin\models\Product;
 use Yii;
-use yii\data\ActiveDataProvider;
 use yii\db\Expression;
 use yii\filters\AccessControl;
 use yii\web\Controller;

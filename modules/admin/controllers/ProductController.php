@@ -3,9 +3,10 @@
 namespace app\modules\admin\controllers;
 
 use app\models\ImageUpload;
-use app\models\Product;
-use app\models\ProductSearch;
+
 use app\modules\admin\controllers\AppAdminController;
+use app\modules\admin\models\Product;
+use app\modules\admin\models\ProductSearch;
 use yii\db\Expression;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
@@ -83,7 +84,7 @@ class ProductController extends AppAdminController
                     $model->saveImage($upload->uploadFile($file, $model->image));
                 }
                 $model->save(false);
-                return $this->render('index');
+                return $this->redirect(['view', 'id' => $model->id]);
             }
         } else {
             $model->loadDefaultValues();
