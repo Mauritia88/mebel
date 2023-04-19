@@ -29,7 +29,7 @@ use yii\helpers\Url; ?>
     </div>
     <div class="text-center">
 
-            <?= Html::a('Смотреть', ['/product/view', 'id' => $model->id], ['class' => 'btn btn-warning add-to-cart']) ?>
+            <?= Html::a('Смотреть', ['/product/view', 'id' => $model->id], ['class' => 'btn btn-warning']) ?>
 
     </div>
 

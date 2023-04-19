@@ -22,7 +22,7 @@ $this->title = 'Продукты';
             <?= Html::a('Создать', ['create'], ['class' => 'btn btn-success']) ?>
         </div>
         <div class="col-9">
-<!--            --><?php //echo $this->render('_search', ['model' => $searchModel]); ?>
+            <?php echo $this->render('_search', ['model' => $searchModel]); ?>
         </div>
     </div>
 

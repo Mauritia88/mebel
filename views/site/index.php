@@ -52,7 +52,7 @@ use yii\helpers\Url;
 <!--                                                    <a href="--><?//= Url::to(['product/view', 'id' => $hit->id]) ?><!--">--><?//= $hit->title ?><!--</a>-->
 <!--                                                </p>-->
 <!--                                                <a href="--><?//= Url::to(['cart/add', 'id' => $hit->id]) ?><!--"-->
-<!--                                                   data-id="--><?//= $hit->id ?><!--" class="btn btn-default add-to-cart"><i-->
+<!--                                                   data-id="--><?//= $hit->id ?><!--" class="btn btn-default"><i-->
 <!--                                                            class="fa fa-shopping-cart"></i>Add to cart</a>-->
 <!--                                            </div>-->
 <!--                                --><?php //if ($model->status_id == 6): ?>

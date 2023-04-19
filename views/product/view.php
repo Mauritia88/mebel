@@ -44,7 +44,7 @@ $this->title = $model->title;
             <br><br><br>
             <form method="post"
                   action="<?= Url::to(['basket/add']); ?>"
-                  class="add-to-cart">
+                  class="">
                 <label>Количество</label>
                 <input name="count" type="text" value="1"/>
                 <input type="hidden" name="id"
@@ -78,7 +78,7 @@ $this->title = $model->title;
                                         <p>
                                             <a href="<?= Url::to(['product/view', 'id' => $hit->id]) ?>"><?= $hit->title ?></a>
                                         </p>
-                                        <?= Html::a('Смотреть', ['/product/view', 'id' => $hit->id], ['class' => 'btn btn-warning add-to-cart']) ?>
+                                        <?= Html::a('Смотреть', ['/product/view', 'id' => $hit->id], ['class' => 'btn btn-warning']) ?>
                                     </div>
                                 </div>
                             </div>

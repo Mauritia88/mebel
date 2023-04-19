@@ -53,7 +53,7 @@ $this->title = $model->title;
                                         <p>
                                             <a href="<?= Url::to(['product/view', 'id' => $hit->id]) ?>"><?= $hit->title ?></a>
                                         </p>
-                                        <?= Html::a('Смотреть', ['product/view', 'id' => $hit->id], ['class' => 'btn btn-warning add-to-cart']) ?>
+                                        <?= Html::a('Смотреть', ['product/view', 'id' => $hit->id], ['class' => 'btn btn-warning']) ?>
                                     </div>
                                 </div>
                             </div>

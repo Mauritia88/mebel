@@ -45,7 +45,7 @@ use yii\widgets\LinkPager;
                                                 </p>
                                                 <a href="<?= Url::to(['product/view', 'id' => $product->id]) ?>"
                                                    data-id="<?= $product->id ?>"
-                                                   class="btn btn-default add-to-cart"><i
+                                                   class="btn btn-warning"><i
                                                             class=""></i>Смотреть</a>
                                             </div>
                                             <?php if ($product->status_id == 6): ?>
